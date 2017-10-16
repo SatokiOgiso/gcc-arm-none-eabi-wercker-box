@@ -1,0 +1,12 @@
+name: gcc-arm-none-eabi-box
+version: 0.0.4
+type: main
+platform: ubuntu@16.04
+description: gcc-arm-none-eabi
+keywords:
+  - gcc-arm-none-eabi
+script: |
+  sudo apt-get update
+  sudo apt-get install build-essential
+  sudo apt-get install gcc-arm-none-eabi libstdc++-arm-none-eabi-newlib gdb-arm-none-eabi
+  
